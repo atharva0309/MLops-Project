@@ -1,0 +1,3 @@
+atharvakharate
+gEHL5ENXnZMq2jGu
+mongodb+srv://atharvakharate:<db_password>@cluster0.j0milok.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
