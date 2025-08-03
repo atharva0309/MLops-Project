@@ -16,7 +16,7 @@ log_file_path = os.path.join(log_dir_path,LOG_FILE)
 
 def configure_logger():
     logger = logging.getLogger()
-    logger.setLevel(logging.debug)
+    logger.setLevel(logging.DEBUG)
 
     formatter = logging.Formatter("[%(asctime)s]%(name)s - %(levelname)s - %(message)s")
 
@@ -24,7 +24,7 @@ def configure_logger():
 # file handler(printslogs in the file)
     file_handler = RotatingFileHandler(log_file_path,maxBytes=MAX_LOG_SIZE,backupCount=BACKUP_COUNT)
     file_handler.setFormatter(formatter)
-    file_handler.setLevel(logging.debug)
+    file_handler.setLevel(logging.DEBUG)
 
 # console handler(prints logs in the terminal)
     console_handler = logging.StreamHandler()

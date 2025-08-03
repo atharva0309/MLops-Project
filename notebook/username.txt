@@ -1,3 +1,4 @@
 atharvakharate
 gEHL5ENXnZMq2jGu
-mongodb+srv://atharvakharate:<db_password>@cluster0.j0milok.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+mongodb+srv://atharvakharate:gEHL5ENXnZMq2jGu@cluster0.j0milok.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+$env:MONGODB_URL = "mongodb+srv://atharvakharate:gEHL5ENXnZMq2jGu
